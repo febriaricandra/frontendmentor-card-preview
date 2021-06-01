@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 95%);
+}
+.container {
+  margin: 240px auto auto 550px;
+  font-family: "Lexend Deca", "Big Shoulders Display";
+}
+.card-container {
+  display: flex;
+  color: white;
+  position: fixed;
+}
+.orange {
+  background-color: hsl(31, 77%, 52%);
+}
+.dark-cyan {
+  background-color: hsl(184, 100%, 22%);
+}
+.very-dark-cyan {
+  background-color: hsl(179, 100%, 13%);
+}
+.card {
+  width: 200px;
+  height: 400px;
+  line-height: 30px;
+  padding: 40px;
+}
+.card p {
+  font-size: 15px;
+  margin-bottom: 70px;
+}
+.card a {
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 80px;
+  padding: 12px;
+}
+.card a:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+.txt-orange {
+  color: hsl(31, 77%, 52%);
+}
+.txt-darkcyan {
+  color: hsl(184, 100%, 22%);
+}
+.txt-vdarkcyan {
+  color: hsl(179, 100%, 13%);
+}
+.leftrounded {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.rightrounded {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+a {
+  font-weight: lighter;
+}
